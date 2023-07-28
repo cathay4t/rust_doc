@@ -1,0 +1,33 @@
+[package]
+name = "rust_doc"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "*"
+libc = "*"
+nix ="*"
+serde = "*"
+serde_json = "*"
+serde_yaml = "*"
+clap = "*"
+zvariant = "*"
+zbus = "*"
+tokio = "*"
+rtnetlink = "*"
+netlink-packet-route = "*"
+futures = "*"
+uuid = "*"
+mio = "*"
+ipnet = "*"
+dhcproto = "*"
+slint = "*"
+regex = "*"
+chrono = "*"
+etherparse = "*"
+tun = "*"
+semver = "*"
+async-std = "*"
+smol = "*"
