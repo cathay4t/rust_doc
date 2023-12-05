@@ -29,3 +29,4 @@ nix = { version = "0.27.1", features = ["fs", "hostname", "ioctl", "net", "poll"
 tokio = { version = "1.33.0", features = ["full"] }
 libc = "0.2.149"
 uuid = { version = "1.5.0", features = ["v4", "v5", "v6", "v7", "v8", "rand", "serde", "zerocopy"] }
+ethtool = "*"
