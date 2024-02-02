@@ -24,9 +24,12 @@ chrono = "*"
 etherparse = "*"
 smol = "*"
 syslog = "*"
-clap = { version = "4.4.6", features = ["cargo", "debug", "derive", "env", "string", "unicode", "unstable-doc", "unstable-v5", "unstable-styles", "wrap_help"] }
-nix = { version = "0.27.1", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy"] }
-tokio = { version = "1.33.0", features = ["full"] }
-libc = "0.2.149"
-uuid = { version = "1.5.0", features = ["v4", "v5", "v6", "v7", "v8", "rand", "serde", "zerocopy"] }
+clap = { version = "*", features = ["cargo", "debug", "derive", "env", "string", "unicode", "unstable-doc", "unstable-v5", "unstable-styles", "wrap_help"] }
+nix = { version = "*", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy"] }
+tokio = { version = "*", features = ["full"] }
+tokio-util = { version = "*", features = ["time"] }
+libc = "*"
+uuid = { version = "*", features = ["v4", "v5", "v6", "v7", "v8", "rand", "serde", "zerocopy"] }
 ethtool = "*"
+env_logger = "*"
+candle-core = "*"
