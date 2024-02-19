@@ -25,7 +25,7 @@ etherparse = "*"
 smol = "*"
 syslog = "*"
 clap = { version = "*", features = ["cargo", "debug", "derive", "env", "string", "unicode", "unstable-doc", "unstable-v5", "unstable-styles", "wrap_help"] }
-nix = { version = "*", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy"] }
+nix = { version = "*", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy", "event"] }
 tokio = { version = "*", features = ["full"] }
 tokio-util = { version = "*", features = ["time"] }
 libc = "*"
