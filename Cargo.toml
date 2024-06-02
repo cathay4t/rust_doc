@@ -33,3 +33,4 @@ uuid = { version = "*", features = ["v4", "v5", "v6", "v7", "v8", "rand", "serde
 ethtool = "*"
 env_logger = "*"
 candle-core = "*"
+gix = "*"
