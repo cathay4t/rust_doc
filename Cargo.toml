@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 log = "*"
-serde = "*"
+serde = {version = "*", features = ["derive"]}
 serde_json = "*"
 serde_yaml = "*"
 zvariant = "5"
@@ -35,3 +35,7 @@ env_logger = "*"
 candle-core = "*"
 gix = "*"
 gitoxide-core = "*"
+indexmap = "*"
+chromadb = "*"
+ollama-rs = "*"
+pastey = "*"
