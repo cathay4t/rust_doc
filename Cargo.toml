@@ -1,42 +1,37 @@
 [package]
 name = "rust_doc"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = "*"
+clap = { version = "*", features = ["cargo", "debug", "derive", "env", "string", "unicode", "unstable-doc", "unstable-v5", "unstable-styles", "wrap_help"] }
+dhcproto = "*"
+env_logger = "*"
+etherparse = "*"
+ethtool = "*"
+futures = "*"
+indexmap = "*"
+ipnet = "*"
+ipnetwork = "*"
+libc = "*"
 log = "*"
+mio = "*"
+netlink-packet-route = "*"
+nix = { version = "*", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy", "event"] }
+pastey = "*"
+regex = "*"
+rtnetlink = "*"
 serde = {version = "*", features = ["derive"]}
 serde_json = "*"
 serde_yaml = "*"
-zvariant = "5"
-zbus = "5"
-rtnetlink = "*"
-netlink-packet-route = "*"
-futures = "*"
-mio = "*"
-ipnet = "*"
-ipnetwork = "*"
-dhcproto = "*"
-regex = "*"
-chrono = "*"
-etherparse = "*"
 smol = "*"
 syslog = "*"
-clap = { version = "*", features = ["cargo", "debug", "derive", "env", "string", "unicode", "unstable-doc", "unstable-v5", "unstable-styles", "wrap_help"] }
-nix = { version = "*", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy", "event"] }
 tokio = { version = "*", features = ["full"] }
-tokio-util = { version = "*", features = ["time"] }
 tokio-stream = "*"
-libc = "*"
-uuid = { version = "*", features = ["v4", "v5", "v6", "v7", "v8", "rand", "serde", "zerocopy"] }
-ethtool = "*"
-env_logger = "*"
-candle-core = "*"
-gix = "*"
-gitoxide-core = "*"
-indexmap = "*"
-chromadb = "*"
-ollama-rs = "*"
-pastey = "*"
+tokio-util = { version = "*", features = ["time"] }
+uuid = { version = "*" }
+zbus = "*"
+zvariant = "*"

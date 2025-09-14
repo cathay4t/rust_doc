@@ -1,4 +1,4 @@
 .PHONY: all
 all:
 	cargo update
-	cargo doc
+	env RUSTFLAGS="--cfg docsrs" cargo doc --all-features
