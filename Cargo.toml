@@ -35,3 +35,4 @@ tokio-util = { version = "*", features = ["time"] }
 uuid = { version = "*" }
 zbus = "*"
 zvariant = "*"
+toml = "*"
