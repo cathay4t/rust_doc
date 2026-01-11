@@ -12,18 +12,17 @@ dhcproto = "*"
 env_logger = "*"
 etherparse = "*"
 ethtool = "*"
-futures = "*"
+futures-util = "*"
+futures-channel = "*"
 indexmap = "*"
 ipnet = "*"
 ipnetwork = "*"
 libc = "*"
 log = "*"
 mio = "*"
-netlink-packet-route = "*"
 nix = { version = "*", features = ["fs", "hostname", "ioctl", "net", "poll", "time", "term", "uio", "user", "zerocopy", "event"] }
 pastey = "*"
 regex = "*"
-rtnetlink = "*"
 serde = {version = "*", features = ["derive"]}
 serde_json = "*"
 serde_yaml = "*"
@@ -36,5 +35,6 @@ uuid = { version = "*" }
 zbus = "*"
 zvariant = "*"
 toml = "*"
-nispor = "*"
-mozim = "*"
+rtnetlink = { git = "https://github.com/rust-netlink/rtnetlink/" }
+nispor = { git = "https://github.com/nispor/nispor" }
+mozim =  { git = "https://github.com/nispor/mozim/" }
