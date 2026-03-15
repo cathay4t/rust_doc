@@ -38,3 +38,6 @@ toml = "*"
 rtnetlink = { git = "https://github.com/rust-netlink/rtnetlink/" }
 nispor = { git = "https://github.com/nispor/nispor" }
 mozim =  { git = "https://github.com/nispor/mozim/" }
+base64 = "*"
+pin-init = "*"
+reqwest = "*"
